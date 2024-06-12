@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/[438]Find All Anagrams in a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/doc/content/[438]Find All Anagrams in a String.md" />
+              <option name="frontendQuestionId" value="leetcode.cn438" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/[438]Find All Anagrams in a String.java" />
+              <option name="titleSlug" value="find-all-anagrams-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/[LCR 160]数据流中的中位数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/doc/content/[LCR 160]数据流中的中位数.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 160" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leecode/leetcode/editor/cn/[LCR 160]数据流中的中位数.java" />
+              <option name="titleSlug" value="shu-ju-liu-zhong-de-zhong-wei-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

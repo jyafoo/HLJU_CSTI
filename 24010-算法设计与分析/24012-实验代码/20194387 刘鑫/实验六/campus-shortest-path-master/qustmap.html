@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="qustmap.css">
+    <title>最短路径</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wEduqRmZfekzM6qpc3HZxYgMRqLue3P6"></script>
+    <script src="http://mapv.baidu.com/build/mapv.min.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <div class="control">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="startnode">选择起点：</label>
+        </div>
+        <select id="startnode" class="custom-select"></select></br>
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="endnode">选择终点：</label>
+        </div>
+        <select id="endnode" class="custom-select"></select></br>
+        <input type="button" name="click" value="获取最短路径" id="button" class="btn btn-outline-dark">
+    </div>
+    <div id="showdis" class="alert alert-primary" role="alert">🐺路径距离&nbsp输出框</div>
+    <div class="font-italic">算法设计分析-最短路径作业（黑大地图）</div>
+    <button type="button" class="btn btn-outline-warning" id="warninginfo">Warning</button>
+    <script type="text/javascript" src="qustmap.js"></script>
+</body>
+</html>
