@@ -1,0 +1,20 @@
+
+c
+java:S1659"HDeclare "runingQueue" and all following declarations on a separate line.(ë»Ìúÿÿÿÿ
+@	java:S106-"+Replace this use of System.out by a logger.(óœÅµ
+E	java:S1069"+Replace this use of System.out by a logger.(‰Å•ÿùÿÿÿÿ
+@	java:S106;"+Replace this use of System.out by a logger.(“­çó
+?	java:S106<"+Replace this use of System.out by a logger.(˜¯‹h
+?	java:S106X"+Replace this use of System.out by a logger.(õÚ©%
+E	java:S106b"+Replace this use of System.out by a logger.(ãŸÕıÿÿÿÿ
+E	java:S106s"+Replace this use of System.out by a logger.(ôóšÛüÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(Ç‹Ÿ¯üÿÿÿÿ
+F	java:S106˜"+Replace this use of System.out by a logger.(–şô‚şÿÿÿÿ
+A	java:S106¯"+Replace this use of System.out by a logger.(³ÙşÉ
+F	java:S106°"+Replace this use of System.out by a logger.(Ÿıû¿ÿÿÿÿÿ
+@	java:S106±"+Replace this use of System.out by a logger.(Ö³ô
+
+F	java:S106²"+Replace this use of System.out by a logger.(Ã‚¢ÿÿÿÿÿ
+F	java:S106³"+Replace this use of System.out by a logger.(õÙıÛúÿÿÿÿ
+F	java:S106´"+Replace this use of System.out by a logger.(ÆÒÎœşÿÿÿÿ
+A	java:S106µ"+Replace this use of System.out by a logger.(ÿ½­í
