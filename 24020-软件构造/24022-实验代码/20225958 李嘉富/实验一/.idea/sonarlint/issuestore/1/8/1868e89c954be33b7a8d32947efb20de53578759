@@ -1,0 +1,36 @@
+
+_
+java:S1643*"Use a StringBuilder instead.(§ëÜ‹8Éõğşî1J$977e3556-81e4-4de6-88ab-d51a2cd498e2
+_
+java:S1643-"Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$9cb8225b-31a4-4d59-8b4f-87cd44a5749f
+_
+java:S1643="Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$f0f1f0b9-169a-4a84-8950-7bcec985e4b5
+_
+java:S1643@"Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$5c76eab6-0dfd-4cdb-b901-dfeb36830cad
+_
+java:S1643G"Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$34d90b9b-694d-423d-aea2-45ea1d6d615e
+_
+java:S1643I"Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$3e9ce61b-d496-488e-a406-63fc3c3b194a
+_
+java:S1643P"Use a StringBuilder instead.(§ëÜ‹8Êõğşî1J$f9ed53a4-f20d-4b35-a79c-4a9213a2b7d9
+–
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÍÖèÿÿÿÿÿ8‰÷ğşî1J$08578d3d-f2ec-4ef1-9355-a74c69f42fa4
+•
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†ŒÎ§øÿÿÿÿ8ˆ÷ğşî1J$8c123836-1831-4a92-b801-f4b8b6bf0202
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8÷ğşî1J$084f3263-8ad8-43cd-9c23-331cb8ed990f
+ƒ	java:S125R"<This block of commented-out lines of code should be removed.(à™Äûÿÿÿÿ8–÷ğşî1J$cdf16274-15aa-46c6-94b4-410b5dcb86b0
+m	java:S106^"+Replace this use of System.out by a logger.(ş®Àé8˜÷ğşî1J$d84cf465-d3ef-4ffb-9201-f8e98967c7c0
+´
+java:S1130x"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(½Í˜Õøÿÿÿÿ8éõşî1J$67b38631-5d76-43d1-8b7e-7252f7fb6deb
+‰
+java:S1126y"AReplace this if-then-else statement by a single return statement.(ËŸş¤ıÿÿÿÿ8¡÷ğşî1J$9b6e6de9-3c18-47b7-b869-29238a573022
+…
+java:S1126…"AReplace this if-then-else statement by a single return statement.(şœî8¢÷ğşî1J$d3579623-fd77-4db5-8adb-0c972b0e1b59
+	java:S125…"<This block of commented-out lines of code should be removed.(şœî8Ÿ÷ğşî1J$8680ba12-4111-477e-9caf-787d70b4a959
+…
+java:S1126"AReplace this if-then-else statement by a single return statement.(Ãİº¤8ÍÈñşî1J$d4af9778-719b-4342-9a77-3b9a671279a2
+…
+java:S1126œ"AReplace this if-then-else statement by a single return statement.(‰äÈ¯8îõşî1J$b8d87284-d8c9-4abf-ad40-bf64b596d565
+‚
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8İ³óşî1J$8c7ba2ea-97c4-4f39-9144-6c28bc2fe4e0

@@ -1,0 +1,11 @@
+int main()
+{
+    int A = 666;
+    int q = 1;
+    char B = 71;
+    if(A >= B){
+        q = 333;
+        B = A + AsdB;
+    }
+    return 0;
+}@
