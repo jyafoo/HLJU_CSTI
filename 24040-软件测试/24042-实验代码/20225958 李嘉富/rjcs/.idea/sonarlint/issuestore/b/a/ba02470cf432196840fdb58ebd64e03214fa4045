@@ -1,0 +1,9 @@
+
+X
+java:S1643!"Use a StringBuilder instead.(‚÷ç¡J$515bf505-d1c1-47ee-a2fc-1693855d8182
+X
+java:S1643%"Use a StringBuilder instead.(Ìµ³’J$99ef706d-f986-4f4d-b3af-82fc498c4b0a
+k	java:S106"+Replace this use of System.out by a logger.(òºš‹üÿÿÿÿJ$bcd7f8aa-7929-49fa-b00b-c87f370afdf1
+f	java:S106"+Replace this use of System.out by a logger.(Ç‡€J$c6f441ce-3fd1-4b0f-ac2a-bd0674f1579c
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(€‰„èJ$bed1d941-ade1-441b-ada0-7ba3e865031f
