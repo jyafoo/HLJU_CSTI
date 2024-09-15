@@ -1,0 +1,121 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Vue Router in HTML</title>  
+    <!-- 引入Vue -->  
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>  
+    <!-- 引入vue-router -->  
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.3/dist/vue-router.js"></script>  
+    <style>  
+        /* 样式部分 */  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+            background-color: #f5f5f5;  
+        }  
+  
+        #app {  
+            max-width: 800px;  
+            margin: 0 auto;  
+            background-color: #fff;  
+            padding: 20px;  
+            border-radius: 5px;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+        }  
+  
+        router-link-active {  
+            color: #f00; /* 激活的路由链接颜色 */  
+        }  
+  
+        router-link {  
+            display: inline-block;  
+            margin-right: 10px;  
+            padding: 5px 10px;  
+            border-radius: 5px;  
+            text-decoration: none;  
+            color: #333;  
+            background-color: #eee;  
+            transition: all 0.3s ease;  
+        }  
+  
+        router-link:hover {  
+            background-color: #ddd;  
+        }  
+  
+        router-view h1 {  
+            margin-top: 20px;  
+        }  
+        .content {  
+            margin-top: 20px;  
+        }  
+        .content img {  
+            max-width: 100%;  
+            height: auto;  
+        }  
+        .content p {  
+            margin-top: 10px;  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+<div id="app">  
+    <router-link to="/demo1">待付款</router-link>  
+    <router-link to="/demo2">待发货</router-link>  
+    <router-link to="/demo3">待收货</router-link>  
+    <router-view></router-view>  
+</div>  
+  
+<script>  
+        // 定义组件  
+        const demo1 = {   
+            template: `  
+                <div class="content">  
+                    <h1>待付款</h1>  
+                    <img src="https://img0.baidu.com/it/u=964508216,4225442095&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500?text=待付款" alt="待付款">  
+                    <p>这里是待付款订单的相关信息。请尽快完成支付以确保订单有效。</p>  
+                </div>  
+            `   
+        };  
+        const demo2 = {   
+            template: `  
+                <div class="content">  
+                    <h1>待发货</h1>  
+                    <img src="https://img0.baidu.com/it/u=2082119018,751410499&fm=253&fmt=auto&app=138&f=JPEG?w=632&h=500?text=待发货" alt="待发货">  
+                    <p>这里是待发货订单的相关信息。您的订单已经确认，即将为您发货。</p>  
+                </div>  
+            `   
+        };  
+        const demo3 = {   
+            template: `  
+                <div class="content">  
+                    <h1>待收货</h1>  
+                    <img src="https://img2.baidu.com/it/u=2624134008,3362723778&fm=253&fmt=auto&app=138&f=JPEG?w=475&h=803?text=待收货" alt="待收货">  
+                    <p>这里是待收货订单的相关信息。您的订单已经发货，请注意查收。</p>  
+                </div>  
+            `   
+        };  
+// 配置路由  
+const routes = [  
+    { path: '/demo1', component: demo1 },  
+    { path: '/demo2', component: demo2 },  
+    { path: '/demo3', component: demo3 }  
+];  
+  
+// 创建router实例  
+const router = new VueRouter({  
+    routes // (缩写) 相当于 routes: routes  
+});  
+  
+// 创建和挂载根实例  
+new Vue({  
+    router, // (缩写) 相当于 router: router  
+    el: '#app',  
+});  
+</script>  
+  
+</body>  
+</html>

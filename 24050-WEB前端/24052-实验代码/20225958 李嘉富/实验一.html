@@ -1,0 +1,79 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Register</title>  
+	<style>
+		body {  
+		    background-color: #ccc; /* 灰色背景 */  
+		    font-family: Arial, sans-serif;  
+		    display: flex;  
+		    justify-content: center;  
+		    align-items: center;  
+		    height: 100vh; /* 垂直居中内容 */  
+		    margin: 0;  
+		}  
+		  
+		.container {  
+		    background-color: #6f6f6f;  
+		    padding: 50px;  
+		    border-radius: 5px;  
+		    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+		    text-align: left; /* 内容在容器内左对齐 */  
+		}  
+		
+		h1 {  
+		    text-align: center; /* 标题居中 */  
+		}  
+		  
+		label {  
+		    display: block;  
+		    margin-bottom: 5px;  
+		}  
+		  
+		input[type="text"], 
+		input[type="email"],
+		input[type="tel"],
+		input[type="password"] {  
+		    width: 100%;  
+		    padding: 10px;  
+		    margin-bottom: 15px;  
+		    border-radius: 3px;  
+		    border: 1px solid #ccc;  
+		}  
+		  
+		input[type="submit"] {  
+			text-align: center;
+		    padding: 10px 20px;  
+		    background-color: #5b40aa; /* 绿色背景 */  
+		    color: white;  
+		    border: none;  
+		    border-radius: 3px;  
+		    cursor: pointer;  
+		}  
+		  
+
+	</style>
+</head>  
+<body>  
+    <div class="container">  
+        <h1>Register</h1>  
+        <form id="registration-form">  
+            <label >用户名:</label>  
+            <input type="text" id="username" name="username" required>  
+  
+            <label >密码:</label>  
+            <input type="password" id="password" name="password" required>  
+  
+            <label >邮箱:</label>
+            <input type="email" id="email" name="email" required>  
+			
+			<label >手机号:</label>
+			<input type="tel" id="telephone" name="telephone" required>  
+  
+            <input type="submit" value="提交">  
+        </form>  
+    </div>  
+</body>  
+</html>

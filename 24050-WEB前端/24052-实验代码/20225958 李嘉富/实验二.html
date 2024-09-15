@@ -1,0 +1,169 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Vue 1</title>  
+    <!-- 引入Vue.js -->  
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>  
+    <style>  
+        body, html {  
+            height: 100%;  
+            margin: 0;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            font-family: 'Arial', sans-serif;  
+            background-color: #f5f5f5;  
+        }  
+  
+        #app {  
+            width: 80%; /* 限制应用容器的宽度 */  
+            max-width: 600px; /* 最大宽度 */  
+            background-color: #fff;  
+            border-radius: 5px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+            padding: 20px;  
+            text-align: left;  
+        }  
+  
+        h1 {  
+            color: #333;  
+            margin-top: 0;  
+        }  
+  
+        form {  
+            margin-bottom: 20px;  
+        }  
+  
+        label {  
+            display: block;  
+            margin-bottom: 10px;  
+        }  
+  
+        input[type="text"] {  
+            width: 100%;  
+            padding: 5px;  
+            border-radius: 3px;  
+            border: 1px solid #ccc;  
+        }  
+  
+        button {  
+            padding: 5px 10px;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            border-radius: 3px;  
+            cursor: pointer;  
+        }  
+  
+        button:hover {  
+            background-color: #45a049;  
+        }  
+  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+            margin-bottom: 20px;  
+        }  
+  
+        th, td {  
+            padding: 8px;  
+            text-align: left;  
+            border-bottom: 1px solid #ddd;  
+        }  
+  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+  
+        tr:nth-child(even) {  
+            background-color: #f9f9f9;  
+        }  
+    </style> 
+</head>  
+<body>  
+  
+<!-- 3) 使用Vue语法实现功能 -->  
+<!-- 1) 提供标签用于填充数据，注意使用插值语法{{}} -->  
+<div id="app">  
+    <h1>{{ message }}</h1>  
+    <!-- 表单部分 -->
+    <form @submit.prevent="addItem">
+        <label>用户名:<input type="text" v-model="newItem.name"></label><br>
+        <label>&nbsp;年龄：<input type="text" v-model="newItem.age"></label><br>
+        <label> &nbsp;性别：<input type="text" v-model="newItem.sex"></label><br>
+        <button type="submit">提交</button>  
+    </form>
+    ---------------------------------------
+    <!-- 表格部分 -->  
+    <table>  
+        <thead>  
+            <tr>  
+                <th>序号</th>  
+                <th>用户名</th>  
+                <th>年龄</th>  
+                <th>性别</th> 
+                <th>操作</th>   
+            </tr>  
+        </thead>  
+        <tbody>  
+            <tr v-for="(item, index) in items" :key="item.id">  
+                <td>{{ index + 1 }}</td> <!-- 使用index + 1来编号 -->  
+                <td>{{ item.name }}</td>  
+                <td>{{ item.age }}</td>  
+                <td>{{ item.sex }}</td>  
+                <td><button @click="removeItem(item.id)">Delete</button></td> <!-- 删除按钮 -->  
+            </tr>  
+        </tbody>  
+    </table>  
+</div>  
+
+<script>  
+// 4) 利用Vue将数据渲染到页面上  
+// 3) 使用Vue语法实现功能  
+// new Vue() 创建一个Vue的实例，在构造函数中以对象的形式做一些配置  
+    new Vue({  
+        el: '#app', // 指定Vue实例挂载的元素，这里是id为'app'的div  
+        data: {  
+        // 数据写在data里面  
+            message: 'Hello Vue!', // 定义要渲染到页面上的数据
+            newItem: {  
+            name: '',  
+            age: '',
+            sex: '',
+            id: null // 假设id是后端生成的，这里简化为自增  
+            },  
+        nextId: 1, // 用来生成新的id  
+        items: [] // 用来存储表格数据的数组  
+    },
+    methods: {  
+        addItem() {  
+            // 假设表单验证已经完成，这里直接将newItem添加到items数组中  
+            if (this.newItem.name && this.newItem.age && this.newItem.sex) {  
+                this.newItem.id = this.nextId++; // 生成新的id  
+                this.items.push({  
+                    name: this.newItem.name,  
+                    age: this.newItem.age,
+                    sex: this.newItem.sex,
+                    id: this.newItem.id  
+
+                });  
+                // 清空表单输入  
+                this.newItem.name = '';  
+                this.newItem.age = ''; 
+                this.newItem.sex = '';   
+            }  
+        },
+        removeItem(id) {  
+            // 通过id从items数组中移除元素  
+            this.items = this.items.filter(item => item.id !== id);  
+           //this.items.Splice()
+        }    
+    }  
+});  
+
+</script>  
+  
+</body>  
+</html>
