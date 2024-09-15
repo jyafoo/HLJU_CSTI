@@ -1,0 +1,64 @@
+
+‡	java:S112ı"FDefine and throw a dedicated exception instead of using a generic one.(çß„öùÿÿÿÿJ$8d556624-83ef-4f47-a69a-92bbf1e7110f
+‚	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(ê£È J$44fed6a8-e09a-4c29-80e0-d3801478efca
+‚	java:S112¨"FDefine and throw a dedicated exception instead of using a generic one.(Œğ„J$d4802d05-794a-459d-bf03-6db753a2b340
+q
+java:S1066 "/Merge this if statement with the enclosing one.(Ñ‡îøúÿÿÿÿJ$7b0c4c68-788e-4232-8e2c-9741cd4cb47f
+¡
+java:S1319("`The type of "map" should be an interface such as "Map" rather than the implementation "HashMap".(‹€ÅëùÿÿÿÿJ$a72940bf-f7ba-4072-aa2d-9efcdfdc418f
+Y
+java:S1643™"Use a StringBuilder instead.(çªÆ¹J$133fa846-cd39-46f8-bf06-f63856569dac
+Y
+java:S1643¼"Use a StringBuilder instead.(çªÆ¹J$cde302c3-943e-4cda-870f-5bde322dc598
+Y
+java:S1643È"Use a StringBuilder instead.(§ëÜ‹J$4b4d2461-74df-41de-bab3-9bd4a630a427
+Y
+java:S1643„"Use a StringBuilder instead.(ˆ­¦©J$da29a84c-8f31-441b-b85e-16ab3bc69859
+™
+java:S1104'"XMake currentState a static final constant or non-public and provide accessors if needed.(ßü¹ÚúÿÿÿÿJ$fa144f1c-42a0-40c7-92b3-8df0c99887bf
+
+java:S1104("OMake map a static final constant or non-public and provide accessors if needed.(‹€ÅëùÿÿÿÿJ$ebc8bd80-40a0-4da4-9baf-7693b56329ee
+
+java:S1104*"QMake index a static final constant or non-public and provide accessors if needed.(„÷¢J$a47cdd60-9279-4586-ab39-04317f0071ca
+s
+java:S1444'"2Make this "public static currentState" field final(ßü¹ÚúÿÿÿÿJ$ceb85300-9e37-495a-8672-5b4ba2ca0de3
+j
+java:S1444(")Make this "public static map" field final(‹€ÅëùÿÿÿÿJ$0f2f2724-cc15-4e90-bfde-cbcfe514f425
+g
+java:S1444*"+Make this "public static index" field final(„÷¢J$57de570d-6311-44b2-b9da-e4498821a267
+•
+java:S2259Ÿ"L"NullPointerException" will be thrown when invoking method "isFinalState()".(ÊÃ–ÿÿÿÿÿÿ8Êüé×ì1J$d48de1c8-80fb-4e0c-9f78-dad481cf0897
+–
+java:S2095•"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(‡É™µüÿÿÿÿ8Â†ì×ì1J$1b8d078d-ed23-43c0-8c3a-8353877633dc
+’
+java:S2095‡"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ìşâØ8Ìüé×ì1J$04adcaf8-0f38-4198-b27f-d44002d18873
+‘
+java:S2095ª"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÅˆÁ€8Â†ì×ì1J$b7847edb-94ab-4688-acad-5cba83cf7c5f
+•
+java:S2095}"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†ŒÎ§øÿÿÿÿ8Ìüé×ì1J$7979be52-0336-4027-884e-afb862b00106
+–
+java:S2095ÿ"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ş¥É´üÿÿÿÿ8Â†ì×ì1J$df644099-4c78-4ca4-adb3-a3a5628fb84c
+—
+java:S2095„"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÍÖèÿÿÿÿÿ8Ëüé×ì1J$9408bafc-e81b-4adf-8dba-c52a75f4e1b6
+•	java:S115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ˆôæJ$affc0c98-39fc-44e7-b4ad-d030234d399e
+^
+java:S2386"Make this member "protected".(šÁïúÿÿÿÿJ$02669412-e845-4f5d-8843-7902c720d1db
+^
+java:S2386("Make this member "protected".(‹€ÅëùÿÿÿÿJ$1b85a8df-d465-485b-baf3-742c9dbdf5b3
+^
+java:S2386-"Make this member "protected".(¬×Š­ûÿÿÿÿJ$117be424-1561-40f2-bb5b-9aa9c595dff3
+š
+java:S3776r"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8×üé×ì1J$664237f2-846f-4aff-804a-d16c8098a225
+ƒ	java:S125t"<This block of commented-out lines of code should be removed.(³ç‘âüÿÿÿÿ8Ùüé×ì1J$babe6e9b-28fa-448f-a11d-cd5a03ec6b60
+s	java:S106¥"+Replace this use of System.out by a logger.(¹ŠŠüÿÿÿÿ8İüé×ì1J$2aee4858-9dc1-4e2b-a9bc-ce943cda2297
+s	java:S106Â"+Replace this use of System.out by a logger.(Øõúÿÿÿÿ8Şüé×ì1J$d5b0bd7a-6554-48a6-beb0-ec87214b691b
+s	java:S106Ô"+Replace this use of System.out by a logger.(¹ŠŠüÿÿÿÿ8ßüé×ì1J$d02c934c-76d2-4aee-b176-708a54cccffc
+s	java:S106ğ"+Replace this use of System.out by a logger.(Ÿµ‚æüÿÿÿÿ8Ø†ì×ì1J$915b5dde-0950-4cbb-be79-8ff4988084f2
+n	java:S106ó"+Replace this use of System.out by a logger.(é°‰û8Ù†ì×ì1J$ace56a1b-fc90-47c4-968b-106085781a41
+n	java:S106ö"+Replace this use of System.out by a logger.(¨Úğ8Ù†ì×ì1J$51eb6199-4c92-47c2-a6cd-e57eae5516c8
+{
+java:S1854€"8Remove this useless assignment to local variable "list".(Ìö¼8Ú†ì×ì1J$54e114fd-484f-4512-b6f5-839e08aff730
+l
+java:S1481€")Remove this unused "list" local variable.(Ìö¼8Ü†ì×ì1J$bf14732d-7199-439f-9c5e-7826e350f474
+
+java:S6541r"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 91 to 64, Complexity from 25 to 14, Nesting Level from 5 to 2, Number of Variables from 18 to 6.(ÙØ¤Şıÿÿÿÿ8êüé×ì1J$b9d52d8f-a498-4105-ad7b-dde2824c7068

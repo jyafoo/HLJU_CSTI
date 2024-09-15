@@ -1,0 +1,25 @@
+
+d
+java:S1192"HDefine a constant instead of duplicating this literal "      (" 3 times.(¹·ó‘şÿÿÿÿ
+J
+java:S10665"/Merge this if statement with the enclosing one.(®ÓÜäıÿÿÿÿ
+;
+java:S1659*" Declare "pr" on a separate line.(±÷•ôıÿÿÿÿ
+:
+java:S1659+"$Declare "freeMr" on a separate line.(ÃÑ×
+@	java:S106&"+Replace this use of System.out by a logger.(ÅÍÂÅ
+P	java:S125."<This block of commented-out lines of code should be removed.(êù³{
+E	java:S106L"+Replace this use of System.out by a logger.(¥§„¼ûÿÿÿÿ
+@	java:S106O"+Replace this use of System.out by a logger.(äê®
+;
+java:S1659a" Declare "pr" on a separate line.(±÷•ôıÿÿÿÿ
+@	java:S106]"+Replace this use of System.out by a logger.(™İğ
+@	java:S106n"+Replace this use of System.out by a logger.(ÒúŠ
+E	java:S106v"+Replace this use of System.out by a logger.(±ô¶Ôúÿÿÿÿ
+F	java:S106€"+Replace this use of System.out by a logger.(Ù®Äÿÿÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(¹·ó‘şÿÿÿÿ
+A	java:S106„"+Replace this use of System.out by a logger.(¾õ¹Ï
+A	java:S106†"+Replace this use of System.out by a logger.(ô¨óô
+F	java:S106Š"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(“’«úÿÿÿÿ
+F	java:S106’"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
